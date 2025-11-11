@@ -40,3 +40,24 @@ footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
 .muted{color:var(--muted)}
 .btn{display:inline-block;padding:8px 12px;border-radius:8px;background:transparent;border:1px solid rgba(0,0,0,0.06);font-size:14px;color:var(--accent);text-decoration:none}
 .download{margin-left:8px}
+
+
+pre {
+  white-space: pre-wrap;   /* permite el salto de línea automático */
+  word-wrap: break-word;   /* corta las palabras largas si es necesario */
+  overflow-wrap: break-word;
+}
+
+.card {
+  max-width: 400px; /* o el tamaño que quieras */
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.card {
+  max-width: 400px; /* o el tamaño que quieras */
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
